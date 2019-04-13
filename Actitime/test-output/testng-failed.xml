@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.actitime.scripts.TasksTest">
+        <methods>
+          <include name="deleteCustomer"/>
+          <include name="setUp"/>
+          <include name="CreateCustomer"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.actitime.scripts.TasksTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
